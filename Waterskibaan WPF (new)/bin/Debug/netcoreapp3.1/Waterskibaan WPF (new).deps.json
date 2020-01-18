@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Waterskibaan WPF (new)/1.0.0": {
+        "runtime": {
+          "Waterskibaan WPF (new).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Waterskibaan WPF (new)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

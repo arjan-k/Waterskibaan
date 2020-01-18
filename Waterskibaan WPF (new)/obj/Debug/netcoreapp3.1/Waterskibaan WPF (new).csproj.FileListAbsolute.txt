@@ -1,0 +1,36 @@
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\bin\Debug\netcoreapp3.1\Waterskibaan WPF (new).exe
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\bin\Debug\netcoreapp3.1\Waterskibaan WPF (new).deps.json
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\bin\Debug\netcoreapp3.1\Waterskibaan WPF (new).runtimeconfig.json
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\bin\Debug\netcoreapp3.1\Waterskibaan WPF (new).runtimeconfig.dev.json
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\bin\Debug\netcoreapp3.1\Waterskibaan WPF (new).dll
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\bin\Debug\netcoreapp3.1\Waterskibaan WPF (new).pdb
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new).csprojAssemblyReference.cache
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\GUI\App.g.cs
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\GUI\MainWindow.g.cs
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new)_MarkupCompile.cache
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new)_MarkupCompile.lref
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\GUI\App.baml
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\GUI\MainWindow.baml
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new).g.resources
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new).AssemblyInfoInputs.cache
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new).AssemblyInfo.cs
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new).dll
+C:\Users\W10\source\repos\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new).pdb
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new).csprojAssemblyReference.cache
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\GUI\App.g.cs
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\GUI\MainWindow.g.cs
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new)_MarkupCompile.cache
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new)_MarkupCompile.lref
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new).dll
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new).pdb
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\bin\Debug\netcoreapp3.1\Waterskibaan WPF (new).exe
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\bin\Debug\netcoreapp3.1\Waterskibaan WPF (new).deps.json
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\bin\Debug\netcoreapp3.1\Waterskibaan WPF (new).runtimeconfig.json
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\bin\Debug\netcoreapp3.1\Waterskibaan WPF (new).runtimeconfig.dev.json
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\bin\Debug\netcoreapp3.1\Waterskibaan WPF (new).dll
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\bin\Debug\netcoreapp3.1\Waterskibaan WPF (new).pdb
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\GUI\App.baml
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\GUI\MainWindow.baml
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new).g.resources
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new).AssemblyInfoInputs.cache
+C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\Waterskibaan WPF (new).AssemblyInfo.cs

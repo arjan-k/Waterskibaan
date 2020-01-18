@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Waterskibaan_WPF__new_</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon />
+    <StartupObject>Waterskibaan_WPF__new_.Program</StartupObject>
+  </PropertyGroup>
+
+</Project>
