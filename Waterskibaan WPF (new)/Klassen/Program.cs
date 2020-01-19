@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Waterskibaan_WPF__new_.Klassen;
+using System.Windows;
 
 namespace Waterskibaan_WPF__new_
 {
@@ -10,6 +11,9 @@ namespace Waterskibaan_WPF__new_
         static void Main(string[] args)
         {
             TestOpdracht11();
+
+            MainWindow window = new MainWindow();
+            window.Show();
         }
 
         static void TestOpdracht11()
@@ -19,6 +23,7 @@ namespace Waterskibaan_WPF__new_
             Console.WriteLine("----------");
             Game game = new Game();
             game.Initialize();
+            Console.Read();
         }
 
         static void TestOpdracht2()

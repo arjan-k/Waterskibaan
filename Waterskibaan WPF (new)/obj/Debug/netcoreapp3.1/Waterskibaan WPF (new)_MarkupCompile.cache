@@ -1,7 +1,7 @@
 ﻿Waterskibaan WPF (new)
 
 
-exe
+winexe
 C#
 .cs
 C:\Users\Arjan\Desktop\Waterskibaan WPF (new)\Waterskibaan WPF (new)\obj\Debug\netcoreapp3.1\
@@ -12,7 +12,7 @@ TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 
 2-936467793
 
-22-1092893729
+24-970402472
 1921654412462
 GUI\App.xaml;GUI\MainWindow.xaml;
 

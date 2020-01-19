@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Waterskibaan_WPF__new_.Klassen.Wachttijden
 {
-    public class InstructieGroep : Wachtrij
+    public class InstructieGroep : Wachtrij, IWachtrij
     {
         public int MAX_LENGTE_RIJ()
         {
@@ -13,7 +13,7 @@ namespace Waterskibaan_WPF__new_.Klassen.Wachttijden
 
         public override string ToString()
         {
-            return base.ToString() + "de instructiegroep.";
+            return base.ToString() + " in de instructiegroep.";
         }
     }
 }

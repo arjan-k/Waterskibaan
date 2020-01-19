@@ -53,7 +53,7 @@ namespace Waterskibaan_WPF__new_.Klassen
         {
             StringBuilder sb = new StringBuilder("Waterskibaan:");
             sb.Append($"{_lijnenVoorraad.ToString()}");
-            sb.Append($"{_kabel.ToString()}");
+            sb.Append($" - {_kabel.ToString()}");
             return $"{sb}";
         }
     }

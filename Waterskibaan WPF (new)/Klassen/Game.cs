@@ -20,11 +20,26 @@ namespace Waterskibaan_WPF__new_.Klassen
         public Waterskibaan wb { get => _wb; set => _wb = value; }
 
 
-        public Timer startGameTimer;
+        private Timer startGameTimer;
+        private Timer nieuweBezoekerTimer;
+        private Timer statusTimer;
+        private Timer instructieAfgelopenTimer;
+
+
+        public delegate void NieuweBezoekerHandler(NieuweBezoekerArgs args);
+        public event NieuweBezoekerHandler NieuweBezoeker;
+
+        public delegate void InstructieAfgelopenHandler(InstructieAfgelopenArgs args);
+        public event InstructieAfgelopenHandler instructieAfgelopen;
 
         public void Initialize()
         {
-            startGameTimer = SetTimer(1000, OnGameStartEvent);
+            startGameTimer = SetTimer(1000, OnGameStartEvent); // Elke 1  sec.
+            nieuweBezoekerTimer = SetTimer(3000, OnNieuweBezoekerEvent); // Elke 3  sec.
+            statusTimer = SetTimer(10000, OnStatusEvent); // Elke 10 sec.
+            instructieAfgelopenTimer = SetTimer(20000, OnInstructieAfgelopenEvent); // Elke 20 sec.
+
+            NieuweBezoeker += OnNieuweBezoeker;
         }
 
         public Timer SetTimer(int ms, ElapsedEventHandler elapsedEventHandler)
@@ -41,7 +56,47 @@ namespace Waterskibaan_WPF__new_.Klassen
         {
             wb.SporterStart(new Sporter());
             wb.VerplaatsKabel();
-            wb.ToString();
+            Console.WriteLine($"{wb.ToString()}");
         }
+
+        public void OnNieuweBezoekerEvent(object source, ElapsedEventArgs e)
+        {
+            NieuweBezoeker?.Invoke(new NieuweBezoekerArgs(new Sporter()));
+        }
+
+        private void OnNieuweBezoeker(NieuweBezoekerArgs e)
+        {
+            wachtrijInstructie.SporterNeemtPlaatsInRij(e.Sporter);
+            OnBezoekerNaarInstructie();
+        }
+
+        public void OnBezoekerNaarInstructie()
+        {
+            List<Sporter> sporters = new List<Sporter>();
+            if (instructieGroep.GetAllSporters().Count == 0)
+            {
+                sporters = wachtrijInstructie.SportersVerlatenRij(5);
+            }
+            foreach (Sporter sporter in sporters)
+            {
+                instructieGroep.SporterNeemtPlaatsInRij(sporter);
+            }
+        }
+
+        public void OnInstructieAfgelopenEvent(object source, ElapsedEventArgs e)
+        {
+
+        }
+
+        public void OnStatusEvent(object source, ElapsedEventArgs e)
+        {
+            Console.WriteLine(
+                 "-------------------------------------------------------- \n" +
+                $"WachtrijInstructie: {wachtrijInstructie.ToString()} \n" +
+                $"Instructiegroep: {instructieGroep.ToString()} \n" +
+                $"WachtrijStarten: {wachtrijStarten.ToString()} \n" +
+                $"--------------------------------------------------------");
+        }
+
     }
 }
