@@ -31,6 +31,7 @@ namespace Waterskibaan_WPF__new_.Klassen
         {
             if (IsStartPositieLeeg())
             {
+                lijn.PositieOpDeKabel = 0;
                 _lijnen.AddFirst(lijn);
             }
         }
@@ -42,18 +43,24 @@ namespace Waterskibaan_WPF__new_.Klassen
                 if(lijn.PositieOpDeKabel < 10)
                 {
                     lijn.PositieOpDeKabel += 1;
+                    lijn.Sporter.Move();
                 }
             }
             if (_lijnen.Last.Value.PositieOpDeKabel == 10)
             {
                 var lastLijn = _lijnen.Last.Value;
+                
+                lastLijn.Sporter.AantalRondenNogTeGaan--;
 
-                _lijnen.RemoveLast();
-
-                lastLijn.PositieOpDeKabel = 0;
-                lastLijn.Sporter.AantalRondenNogTeGaan -= 1;
-
-                NeemLijnInGebruik(lastLijn);
+                if(lastLijn.Sporter.AantalRondenNogTeGaan > 0)
+                {
+                    NeemLijnInGebruik(lastLijn);
+                    lastLijn.PositieOpDeKabel = 0;
+                }
+                else
+                {
+                    _lijnen.RemoveLast();
+                }
             }
         }
 

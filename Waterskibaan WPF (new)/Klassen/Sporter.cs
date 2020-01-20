@@ -23,20 +23,35 @@ namespace Waterskibaan_WPF__new_.Klassen
         public Skies Skies { get; set; }
         public Color KledingKleur { get; set; }
         public List<IMoves> Moves { get; set; }
+        public int Score { get; set; }
+        
+        public IMoves move;
 
         public Sporter()
         {
             Zwemvest = new Zwemvest();
             Skies = new Skies();
+            AantalRondenNogTeGaan = 0;
 
             Moves = MoveCollection.GetWillekeurigeMoves();
             KledingKleur = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
-            int behaaldePunten = 0;
         }
 
         public int Move()
         {
-            throw new NotImplementedException();
+            int behaaldePunten = 0;
+            if (rnd.Next(0,3) == 0 && Moves.Count > 0)
+            {
+                move = Moves[rnd.Next(0, Moves.Count)];
+                behaaldePunten += move.Move();
+            }
+            else
+            {
+                move = null;
+            }
+            Score += behaaldePunten;
+
+            return behaaldePunten;
         }
     }
 }

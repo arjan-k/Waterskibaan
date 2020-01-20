@@ -15,7 +15,7 @@ namespace Waterskibaan_WPF__new_.Klassen
 
         public Lijn VerwijderEersteLijn()
         {
-            if(_lijnen.Count == 0)
+            if(_lijnen.Count < 0)
             {
                 return null;
             }

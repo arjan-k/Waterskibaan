@@ -8,12 +8,10 @@ namespace Waterskibaan_WPF__new_
 {
     class Program
     {
+        [STAThread]
         static void Main(string[] args)
         {
             TestOpdracht11();
-
-            MainWindow window = new MainWindow();
-            window.Show();
         }
 
         static void TestOpdracht11()
@@ -21,9 +19,14 @@ namespace Waterskibaan_WPF__new_
             Console.WriteLine("--- 11 ---");
             Console.WriteLine("Game start");
             Console.WriteLine("----------");
+
             Game game = new Game();
             game.Initialize();
             Console.Read();
+
+            MainWindow window = new MainWindow();
+            window.Show();
+            System.Windows.Threading.Dispatcher.Run();
         }
 
         static void TestOpdracht2()
